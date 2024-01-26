@@ -1,0 +1,39 @@
+@import "../../App.css";
+
+.navbar-header {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 3.5rem;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+}
+.navbar-logo h1 {
+  color: var(--text-color);
+  margin: 0px 0px 0px 30px;
+  font-size: 1.5rem;
+}
+
+.navbar-main {
+  margin-left: 1.5rem;
+}
+
+.navbar-main ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navbar-main li {
+  margin: 0 1rem;
+}
+.navbar-main a {
+  text-decoration: none;
+  color: var(--nav-link-color);
+}
+.navbar-main a:hover,
+.navbar-main a:active,
+.navbar-main a.active {
+  color: var(--nav-link-active-color);
+}
